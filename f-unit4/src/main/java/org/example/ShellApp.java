@@ -131,9 +131,7 @@ public class ShellApp {
         while (true) {
             System.out.print("> ");
             String input = scanner.nextLine().trim();
-            if (!input.isEmpty()) {
-                invoker.executeCommand(input);
-            }
+            invoker.executeCommand(input);
         }
     }
 }
