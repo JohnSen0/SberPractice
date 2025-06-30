@@ -3,8 +3,8 @@ package org.example;
 import java.util.Map;
 
 class HelpCommand extends Command implements Executable {
-    public HelpCommand(ShellInvoker invoker, String description) {
-        super(description);
+    public HelpCommand(ShellInvoker invoker, String name, String description) {
+        super(name, description);
         this.invoker = invoker;
     }
     public void execute() {

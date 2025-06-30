@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 // Комманды
 class DateCommand extends Command implements Executable {
-    public DateCommand(String description) {
-        super(description);
+    public DateCommand(String name, String description) {
+        super(name, description);
     }
     public void execute() {
         System.out.println("Текущая дата: " + LocalDate.now());

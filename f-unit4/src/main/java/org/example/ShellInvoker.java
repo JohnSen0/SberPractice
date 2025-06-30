@@ -9,8 +9,8 @@ class ShellInvoker {
         return commands;
     }
 
-    public void registerCommand(String command_name, Command command) {
-        commands.put(command_name, command);
+    public void registerCommand(Command command) {
+        commands.put(command.getName(), command);
     }
 
     public void executeCommand(String command_name) {

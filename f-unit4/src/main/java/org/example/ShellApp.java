@@ -5,11 +5,11 @@ public class ShellApp {
     public static void main(String[] args) {
         ShellInvoker invoker = new ShellInvoker();
         // Регистрация команд с описаниями
-        invoker.registerCommand("date", new DateCommand("выводит текущую дату"));
-        invoker.registerCommand("time", new TimeCommand("выводит текущее время"));
-        invoker.registerCommand("pwd", new PWDCommand("выводит текущий рабочий каталог"));
-        invoker.registerCommand("exit", new ExitCommand("завершает работу приложения "));
-        invoker.registerCommand("help", new HelpCommand(invoker, "выводит список доступных команд"));
+        invoker.registerCommand(new DateCommand("date","выводит текущую дату"));
+        invoker.registerCommand(new TimeCommand("time", "выводит текущее время"));
+        invoker.registerCommand(new PWDCommand("pwd", "выводит текущий рабочий каталог"));
+        invoker.registerCommand(new ExitCommand("exit", "завершает работу приложения "));
+        invoker.registerCommand(new HelpCommand(invoker, "help", "выводит список доступных команд"));
 
         // Консольный ввод
         Scanner scanner = new Scanner(System.in);
