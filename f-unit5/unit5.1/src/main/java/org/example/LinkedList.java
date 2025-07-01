@@ -34,7 +34,7 @@ public class LinkedList {
             while (current.next != null){
                 current = current.next;
             }
-            current = new_node;
+            current.next = new_node;
         }
         size++;
     }
@@ -45,9 +45,7 @@ public class LinkedList {
      * @param data вставляемый элемент
      */
     public void add(int index, Object data){
-        if(index < 0 || index > size){
-            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
-        }
+        isInRange(index);
         Node new_node = new Node(data);
         if(index==0){
             new_node.next = head;
@@ -69,11 +67,9 @@ public class LinkedList {
      * @return элемент под индеком index
      */
     public Object get(int index){
-        if(index < 0 || index >= size){
-            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
-        }
+        isInRange(index);
         Node current = head;
-        for(int i = 0; i < index-1; i++){
+        for(int i = 0; i < index; i++){
             current = current.next;
         }
         return current.data;
@@ -84,15 +80,13 @@ public class LinkedList {
      * @param index индекс элемента
      */
     public void remove(int index){
-        if(index < 0 || index >= size){
-            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
-        }
+        isInRange(index);
         if (index == 0 ){
             head = head.next;
         }
         else {
             Node current = head;
-            for(int i = 0; i < index-1; i++){
+            for(int i = 0; i < index - 1; i++){
                 current = current.next;
             }
             current.next = current.next.next;
@@ -112,5 +106,23 @@ public class LinkedList {
      */
     public boolean isEmpty(){
         return size==0;
+    }
+
+    private void isInRange(int index){
+        if(index < 0 || index >= size){
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+        }
+    }
+
+    public static void main(String[] args) {
+        LinkedList list = new LinkedList();
+
+        list.add("A");
+        list.add("A1");
+        list.add("A2");
+        list.add("C");
+        list.add(4, "B");
+        list.remove(3);
+        System.out.println(list.get(3));
     }
 }

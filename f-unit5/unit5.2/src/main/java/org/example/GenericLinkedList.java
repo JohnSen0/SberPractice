@@ -34,7 +34,7 @@ public class GenericLinkedList<T> {
             while (current.next != null){
                 current = current.next;
             }
-            current = new_node;
+            current.next = new_node;
         }
         size++;
     }
@@ -73,7 +73,7 @@ public class GenericLinkedList<T> {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
         Node<T> current = head;
-        for(int i = 0; i < index-1; i++){
+        for(int i = 0; i < index; i++){
             current = current.next;
         }
         return current.data;

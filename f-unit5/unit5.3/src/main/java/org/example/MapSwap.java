@@ -18,18 +18,5 @@ public class MapSwap {
         return result_map;
     }
 
-    /**
-     * Тестовый пример
-     * @param args
-     */
-    public static void main(String[] args) {
-        Map<String, Integer> inputMap = new HashMap<>();
-        inputMap.put("один", 1);
-        inputMap.put("два", 2);
-        inputMap.put("три", 3);
 
-        System.out.println("Map до: " + inputMap);
-        Map<Integer, String> swappedMap = swapKeysNValues(inputMap);
-        System.out.println("Map после: " + swappedMap);
-    }
 }

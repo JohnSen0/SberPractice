@@ -8,7 +8,7 @@ import java.util.TreeMap;
 public class WordFrequencyCounter {
 
     public static void main(String[] args) {
-        String file_path = "input.txt";
+        String file_path = "unit5.4/input.txt";
         Map<String, Integer> word_frequency = new HashMap<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(file_path))){
             // Подсчет слов в файле
