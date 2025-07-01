@@ -1,23 +1,13 @@
 package org.example;
 
 public class LinkedList {
-    private static class Node{
-        Object data;
-        Node next;
 
-        Node(Object data){
-            this.data = data;
-            this.next = null;
-        }
-    }
-    private Node head;
-    private int size;
 
     /**
      * Конструктор
      */
     public LinkedList(){
-        head = null;
+        root = null;
         size = 0;
     }
     /**
@@ -26,11 +16,11 @@ public class LinkedList {
      */
     public void add(Object data){
         Node new_node = new Node(data);
-        if (head == null) {
-            head = new_node;
+        if (root == null) {
+            root = new_node;
         }
         else {
-            Node current = head;
+            Node current = root;
             while (current.next != null){
                 current = current.next;
             }
@@ -48,11 +38,11 @@ public class LinkedList {
         isInRange(index);
         Node new_node = new Node(data);
         if(index==0){
-            new_node.next = head;
-            head = new_node;
+            new_node.next = root;
+            root = new_node;
         }
         else {
-            Node current = head;
+            Node current = root;
             for(int i = 0; i < index-1; i++){
                 current = current.next;
             }
@@ -68,7 +58,7 @@ public class LinkedList {
      */
     public Object get(int index){
         isInRange(index);
-        Node current = head;
+        Node current = root;
         for(int i = 0; i < index; i++){
             current = current.next;
         }
@@ -82,10 +72,10 @@ public class LinkedList {
     public void remove(int index){
         isInRange(index);
         if (index == 0 ){
-            head = head.next;
+            root = root.next;
         }
         else {
-            Node current = head;
+            Node current = root;
             for(int i = 0; i < index - 1; i++){
                 current = current.next;
             }
@@ -113,16 +103,16 @@ public class LinkedList {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
     }
+    private static class Node{
+        Object data;
+        Node next;
 
-    public static void main(String[] args) {
-        LinkedList list = new LinkedList();
-
-        list.add("A");
-        list.add("A1");
-        list.add("A2");
-        list.add("C");
-        list.add(4, "B");
-        list.remove(3);
-        System.out.println(list.get(3));
+        Node(Object data){
+            this.data = data;
+            this.next = null;
+        }
     }
+    private Node root;
+    private int size;
+
 }

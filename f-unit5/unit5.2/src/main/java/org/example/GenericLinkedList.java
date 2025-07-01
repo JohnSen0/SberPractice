@@ -1,23 +1,11 @@
 package org.example;
 
 public class GenericLinkedList<T> {
-    private static class Node<T>{
-        T data;
-        Node<T> next;
-
-        Node(T data){
-            this.data = data;
-            this.next = null;
-        }
-    }
-    private Node<T> head;
-    private int size;
-
     /**
      * Конструктор
      */
     public GenericLinkedList(){
-        head = null;
+        root = null;
         size = 0;
     }
     /**
@@ -26,11 +14,11 @@ public class GenericLinkedList<T> {
      */
     public void add(T data){
         Node<T> new_node = new Node<>(data);
-        if (head == null) {
-            head = new_node;
+        if (root == null) {
+            root = new_node;
         }
         else {
-            Node<T> current = head;
+            Node<T> current = root;
             while (current.next != null){
                 current = current.next;
             }
@@ -50,11 +38,11 @@ public class GenericLinkedList<T> {
         }
         Node<T> new_node = new Node<>(data);
         if(index==0){
-            new_node.next = head;
-            head = new_node;
+            new_node.next = root;
+            root = new_node;
         }
         else {
-            Node<T> current = head;
+            Node<T> current = root;
             for(int i = 0; i < index-1; i++){
                 current = current.next;
             }
@@ -72,7 +60,7 @@ public class GenericLinkedList<T> {
         if(index < 0 || index >= size){
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
-        Node<T> current = head;
+        Node<T> current = root;
         for(int i = 0; i < index; i++){
             current = current.next;
         }
@@ -88,10 +76,10 @@ public class GenericLinkedList<T> {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
         if (index == 0 ){
-            head = head.next;
+            root = root.next;
         }
         else {
-            Node<T> current = head;
+            Node<T> current = root;
             for(int i = 0; i < index-1; i++){
                 current = current.next;
             }
@@ -113,4 +101,16 @@ public class GenericLinkedList<T> {
     public boolean isEmpty(){
         return size==0;
     }
+
+    private static class Node<T>{
+        T data;
+        Node<T> next;
+
+        Node(T data){
+            this.data = data;
+            this.next = null;
+        }
+    }
+    private Node<T> root;
+    private int size;
 }
