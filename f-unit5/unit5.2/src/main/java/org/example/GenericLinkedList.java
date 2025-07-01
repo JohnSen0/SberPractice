@@ -33,9 +33,7 @@ public class GenericLinkedList<T> {
      * @param data вставляемый элемент
      */
     public void add(int index, T data){
-        if(index < 0 || index > size){
-            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
-        }
+        isInRange(index);
         Node<T> new_node = new Node<>(data);
         if(index==0){
             new_node.next = root;
@@ -57,9 +55,7 @@ public class GenericLinkedList<T> {
      * @return элемент под индеком index
      */
     public T get(int index){
-        if(index < 0 || index >= size){
-            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
-        }
+        isInRange(index);
         Node<T> current = root;
         for(int i = 0; i < index; i++){
             current = current.next;
@@ -72,9 +68,7 @@ public class GenericLinkedList<T> {
      * @param index индекс элемента
      */
     public void remove(int index){
-        if(index < 0 || index >= size){
-            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
-        }
+        isInRange(index);
         if (index == 0 ){
             root = root.next;
         }
@@ -100,6 +94,12 @@ public class GenericLinkedList<T> {
      */
     public boolean isEmpty(){
         return size==0;
+    }
+
+    private void isInRange(int index){
+        if(index < 0 || index >= size){
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+        }
     }
 
     private static class Node<T>{

@@ -1,8 +1,6 @@
 package org.example;
 
 public class LinkedList {
-
-
     /**
      * Конструктор
      */
@@ -103,6 +101,7 @@ public class LinkedList {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
     }
+
     private static class Node{
         Object data;
         Node next;
