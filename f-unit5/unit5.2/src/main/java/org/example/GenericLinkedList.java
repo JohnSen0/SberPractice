@@ -2,13 +2,6 @@ package org.example;
 
 public class GenericLinkedList<T> {
     /**
-     * Конструктор
-     */
-    public GenericLinkedList(){
-        root = null;
-        size = 0;
-    }
-    /**
      * Добавляет новый элемент в список
      * @param data новый элемент
      */

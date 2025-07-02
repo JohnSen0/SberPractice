@@ -2,13 +2,6 @@ package org.example;
 
 public class LinkedList {
     /**
-     * Конструктор
-     */
-    public LinkedList(){
-        root = null;
-        size = 0;
-    }
-    /**
      * Добавляет новый элемент в список
      * @param data новый элемент
      */
