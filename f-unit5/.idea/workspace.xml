@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd12f58f-6719-41fd-9950-ed108c86b197" name="Changes" comment="Практика 6">
+      <change afterPath="$PROJECT_DIR$/../f-unit6/f-unit6.1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../f-unit6/f-unit6.2/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="f-unit5.4" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JohnSen0&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JohnSen0/SberPractice.git&quot;,
+    &quot;accountId&quot;: &quot;4de66847-0fde-4bea-9227-49a8cae02d2f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2zHDPLUkeouCXKqygBFKIRA6UFh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LinkedList.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MapSwap.executor": "Run",
+    "Application.WordCounterMain.executor": "Run",
+    "Application.WordFrequencyCounter.executor": "Run",
+    "Maven.f-unit5 [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.GenericLinkedListTest.testAdd.executor": "Run",
+    "TestNG.GenericLinkedListTest.testAddAtIndex.executor": "Run",
+    "TestNG.GenericLinkedListTest.testGet.executor": "Run",
+    "TestNG.GenericLinkedListTest.testIsEmpty.executor": "Run",
+    "TestNG.GenericLinkedListTest.testMixedDataTypes.executor": "Run",
+    "TestNG.GenericLinkedListTest.testRemove.executor": "Run",
+    "TestNG.GenericLinkedListTest.testSize.executor": "Run",
+    "TestNG.LinkedListTest.executor": "Run",
+    "TestNG.LinkedListTest.testAdd.executor": "Run",
+    "TestNG.LinkedListTest.testAddAtIndex.executor": "Run",
+    "TestNG.LinkedListTest.testGet.executor": "Run",
+    "TestNG.LinkedListTest.testGetIndex.executor": "Run",
+    "TestNG.LinkedListTest.testIsEmpty.executor": "Run",
+    "TestNG.LinkedListTest.testMixedDataTypes.executor": "Run",
+    "TestNG.LinkedListTest.testRemove.executor": "Run",
+    "TestNG.LinkedListTest.testSize.executor": "Run",
+    "git-widget-placeholder": "f-unit5",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/SberPractice/SberPractice/f-unit5/unit5.1/src/test/java",
+    "onboarding.tips.debug.path": "C:/SberPractice/SberPractice/f-unit5/unit5.4/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SberPractice\SberPractice\f-unit5\unit5.1\src\test\java" />
+      <recent name="C:\SberPractice\SberPractice\f-unit5\unit5.3" />
+      <recent name="C:\SberPractice\SberPractice\f-unit5\unit5.4\src\main\java\org\example" />
+      <recent name="C:\SberPractice\SberPractice\f-unit5\unit5.3\src\main\java\org\example" />
+      <recent name="C:\SberPractice\SberPractice\f-unit5\unit5.2\src\main\java\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SberPractice\SberPractice\f-unit5\unit5.4" />
+      <recent name="C:\SberPractice\SberPractice\f-unit5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GenericLinkedListTest.testAdd">
+    <configuration name="WordCounterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.WordCounterMain" />
+      <module name="unit5.4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericLinkedListTest.testAdd" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unit5.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.GenericLinkedListTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericLinkedListTest.testAddAtIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unit5.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.GenericLinkedListTest" />
+      <option name="METHOD_NAME" value="testAddAtIndex" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testIsEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unit5.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LinkedListTest" />
+      <option name="METHOD_NAME" value="testIsEmpty" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testMixedDataTypes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unit5.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LinkedListTest" />
+      <option name="METHOD_NAME" value="testMixedDataTypes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GenericLinkedListTest.testAdd" />
+        <item itemvalue="TestNG.LinkedListTest.testIsEmpty" />
+        <item itemvalue="Application.WordCounterMain" />
+        <item itemvalue="TestNG.LinkedListTest.testMixedDataTypes" />
+        <item itemvalue="TestNG.GenericLinkedListTest.testAddAtIndex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd12f58f-6719-41fd-9950-ed108c86b197" name="Changes" comment="" />
+      <created>1751379082567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751379082567</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Практика 6">
+      <option name="closed" value="true" />
+      <created>1751379483620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751379483620</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Практика 6">
+      <option name="closed" value="true" />
+      <created>1751390637381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751390637381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Практика 6">
+      <option name="closed" value="true" />
+      <created>1751390654460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751390654460</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Практика 6">
+      <option name="closed" value="true" />
+      <created>1751390951012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751390951012</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Практика 6">
+      <option name="closed" value="true" />
+      <created>1751391110452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751391110452</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Практика 6">
+      <option name="closed" value="true" />
+      <created>1751447158708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751447158708</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Практика 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практика 6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
