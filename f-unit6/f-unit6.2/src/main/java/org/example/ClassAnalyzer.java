@@ -52,7 +52,7 @@ public class ClassAnalyzer {
             if (i < paramTypes.length - 1) {
                 params.append(", ");
             }
-        }
+        } 
         params.append(")");
         return params.toString();
     }
