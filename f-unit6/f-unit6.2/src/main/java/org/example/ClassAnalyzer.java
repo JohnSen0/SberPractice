@@ -38,8 +38,8 @@ public class ClassAnalyzer {
                             getParameterTypes(method));
                 }
             }
-        } catch (ClassNotFoundException e) {
-            System.out.println("Class " + className + " not found");
+        } catch (Exception e) {
+            System.out.println("Класс не найден");
         }
     }
 
